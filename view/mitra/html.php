@@ -1,3 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Produk</title>
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="mitra_style.css">
+</head>
  <!---------------- HEADER ---------------->
  <form action="" method="post" id="my form">
         <header class="header" id="header">
@@ -8,19 +22,16 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="agro_dashboard.php" class="nav__link">Home</a>
+                            <a href="#" class="nav__link">Home</a>
                         </li>
                         <li class="nav__item">
-                            <a href="produk.php" class="nav__link">Permintaan</a>
+                            <a href="#" class="nav__link">Permintaan</a>
                         </li>
                         <li class="nav__item">
                             <a href="#" class="nav__link">Forum</a>
                         </li>
                         <li class="nav__item">
-                            <a href="agro_kemitraan.php" class="nav__link">Kemitraan</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">Pencatatan</a>
+                            <a href="#" class="nav__link">Kemitraan</a>
                         </li>
                     </ul>
                 </div>

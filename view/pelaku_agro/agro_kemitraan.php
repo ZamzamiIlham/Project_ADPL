@@ -1,5 +1,4 @@
 <?php 
-include 'agro_header.php'; 
 include 'html.php';
 ?>
 <body>

@@ -1,5 +1,4 @@
 <?php
-include 'agro_header.php';
 include 'html.php'
 ?>
 <body>
@@ -26,15 +25,15 @@ include 'html.php'
                     <td>1</td>
                     <td>Bapak Katman</td>
                     <td>
-                    <a href="">
+                    <a href="agro_kemitraanDetail.php">
                         <div class="td__detail">
-                            <h3 class="td__">DETAIL</h3>
+                            <p class="td__">DETAIL</p>
                         </div>
                     </td>
                     </a>
                     <td>
                         <div class="td__status">
-                            <h3 class="td__">PROSES</h3>
+                            <p class="td__setuju">SETUJU</p>
                         </div>
                     </td>
                 </tr>
@@ -44,13 +43,13 @@ include 'html.php'
                     <td>
                     <a href="">
                         <div class="td__detail">
-                            <h3 class="td__">DETAIL</h3>
+                            <p class="td__">DETAIL</p>
                         </div>
                     </td>
                     </a>
                     <td>
                         <div class="td__status">
-                            <h3 class="td__">PROSES</h3>
+                            <p class="td__batal">BATAL</p>
                         </div>
                     </td>
                 </tr>
@@ -60,13 +59,13 @@ include 'html.php'
                     <td>
                     <a href="">
                         <div class="td__detail">
-                            <h3 class="td__">DETAIL</h3>
+                            <p class="td__">DETAIL</p>
                         </div>
                     </td>
                     </a>
                     <td>
                         <div class="td__status">
-                            <h3 class="td__">PROSES</h3>
+                            <p class="td__">PROSES</p>
                         </div>
                     </td>
                 </tr>

@@ -8,6 +8,8 @@
     --biru-tua:rgb(0, 43, 91);
     --hijau-muda: rgb(21, 152, 149);
     --hijau-tua:rgb(0, 91, 69);
+    --merah-muda:rgb(250, 152, 132);
+    --merah-tua: rgb(231, 70, 70);
     --text-color: rgb(32, 31, 29);
     --body-color: rgb(255, 255, 255);
     --container-color: rgb(43, 49, 53);
@@ -95,7 +97,6 @@
     display: grid;
     gap: 1.5rem;   
 }
-/*=================== LOGIN ==========================*/
 
 /*=================== HEADER ========================== */
 .header{
@@ -122,7 +123,8 @@
     transition: background .5s;
 }
 .nav__list :hover{
-    color: var(--first-color);
+    color: var(--hijau-muda);
+    transition: .3s;
 }
 .nav__item a{
     font-weight: 600;
@@ -231,11 +233,11 @@
     padding-top: 6rem;
 }
 .kemitraan{
-    padding-top: 4rem;
+    padding-top: 12rem;
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 2.5rem;
+    justify-content: center;
+    flex-direction: row;
+    gap: 4rem;
 }
 .kemitraan__jumlah,.kemitraan__surat{
     display: flex;
@@ -261,7 +263,7 @@
 /* Table Styles */
 
 .table-wrapper{
-    margin: 10px 70px 70px;
+    margin-top: 2rem;
     box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
 }
 
@@ -278,13 +280,15 @@
 }
 
 .fl-table td, .fl-table th {
+    font-size: 1.5rem;
+    font-weight: 600;
     text-align: center;
     padding: 8px;
 }
 
 .fl-table td {
     border-right: 1px solid #f8f8f8;
-    font-size: 12px;
+    font-size: 1rem;
 }
 
 .fl-table thead th {
@@ -303,6 +307,55 @@
     border-radius: 1rem;
     color: white;
     width: 50%;
+}
+.td__setuju{
+    background-color: var(--hijau-muda);
+    color: var(--hijau-tua);
+    border-radius: 1rem;
+    width: 50%;
+}
+.td__batal{
+    background-color: var(--merah-muda);
+    color: var(--merah-tua);
+    border-radius: 1rem;
+    width: 50%;
+}
+/*================KEMITRAAN DETIAL==============*/
+.kemitraanDetail_section{
+    padding-top: 2rem;
+}
+.kemitraanDetail{
+    padding: 2rem 0;
+    grid-template-rows:    repeat(1fr 1fr 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 6rem;
+}
+.detail__left,.detail__right{
+    display: grid;
+    grid-gap: 2rem 3rem;
+}
+.kemitraan__img{
+    width: 200px;
+}
+.kemitraan__usaha{
+    grid-template-columns:1fr 1fr 1fr;
+}
+.kemitraan__box{
+    border: solid var(--hijau-muda) .2rem;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+}
+.kemitraan__box p{
+    font-weight: 500;
+}
+.kemitraan__form{
+    grid-template-columns:.2fr 1fr;
+}
+.form__icon i,.action__icon i{
+    font-size: 2rem;
+}
+.action__icon i{
+    font-weight: 600;
 }
 /*========= RESPONSIVE =============*/
 @media screen and (min-width: 1024px) {

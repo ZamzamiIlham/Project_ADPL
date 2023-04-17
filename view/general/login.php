@@ -15,7 +15,7 @@
 <div class="login__container container">
     <div class="login__left">
         <h1 class="text-1">Agrocorp</h1>
-        <p class="text-2">Mendaftar untuk bergabung bersama kami</p>       
+        <p class="text-2">Membangun komoditas agroindustri bersama kami</p>       
     </div>
     <div class="login__right">
         <img src="../../asset/logo_login.png" alt="home image" class="home__img">
@@ -23,12 +23,6 @@
                 <h2>Login</h2>
                 <p>Bersama kami memajukan pertanian indonesia</p>
             </div>
-            <button class="sign__up button" type="button">
-                <div class="sign__text">
-                    <i class="ri-google-fill"></i> Sign Up With Google
-                </div>
-            </button>
-        
         <form action="" method="">
         <div class="log__input">
             <div class="input__box">
