@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tambah Produk</title>
+    <title></title>
     <!--=============== FAVICON ===============-->
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
     <!--=============== REMIXICONS ===============-->
@@ -22,7 +22,7 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="#" class="nav__link">Home</a>
+                            <a href="mitra_home.php" class="nav__link">Home</a>
                         </li>
                         <li class="nav__item">
                             <a href="#" class="nav__link">Permintaan</a>
@@ -31,7 +31,7 @@
                             <a href="#" class="nav__link">Forum</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__link">Kemitraan</a>
+                            <a href="mitra_kemitraan.php" class="nav__link">Kemitraan</a>
                         </li>
                     </ul>
                 </div>

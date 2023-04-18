@@ -14,7 +14,7 @@
         </div>
         <div class="home__right">
             <div class="home__rigth-image">
-                <img src="../../asset/mitra/landing_page.png" alt="">
+                <!--<img src="../../asset/mitra/landing_page.png" alt="">-->
             </div>
         </div>
     </div>
