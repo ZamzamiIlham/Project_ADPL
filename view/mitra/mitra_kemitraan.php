@@ -37,7 +37,7 @@
                         <i class="ri-map-pin-line"></i>
                         <p>Jember, Jawa Timur</p>
                     </div>
-                    <button class="usaha__title-but">
+                    <button class="usaha__title-but" onclick="location.href='mitra_kemitraanDetail.php'">
                         Lihat detail
                     </button>
                 </div>

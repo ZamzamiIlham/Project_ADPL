@@ -99,6 +99,9 @@
     display: grid;
     gap: 1.5rem;   
 }
+.flex{
+    display: flex;
+}
 
 /*=================== HEADER ========================== */
 .header{
@@ -135,6 +138,65 @@
 .nav__icon{
     font-size: 1.5rem;
     cursor: pointer;
+}
+.sub-menu-wrap{
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    width: 320px;
+    background-color: white;
+    box-shadow: -15px 10px 15px rgb(0 0 0 / 0.2); /* [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color] */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+.sub-menu-wrap.open-menu{
+    max-height: 400px;
+}
+.sub-menu{
+    padding: 1rem 1.5rem;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.user-info img{
+    width: 60px;
+    border-radius: 1rem;
+}
+.sub-menu hr{
+    margin-top: .8rem;
+    border: 0;
+    height: 2px;
+    background: black;
+}
+.sub__list{
+    padding-top: 1rem;
+}
+.sub__list hr{
+    margin-top: .8rem;
+    border: 0;
+    height: 2px;
+    background: black;
+}
+.sub__item{
+    padding-bottom: 1rem;
+    transition: color .3s;
+}
+.sub__item:hover{
+    color: var(--hijau-muda);
+}
+
+.item,.item_logout{
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.item_logout{
+    padding-top: .8rem;
 }
 /*==================== HOME =======================*/
 .home__container{
@@ -274,5 +336,53 @@
     transition: background .3s ;
 }
 .usaha__title-but:hover{
+    background-color: var(--hijau-tua);
+}
+/*============= KEMITRAAN DETAIL ==============*/
+.kemitraanDetail__section{
+    padding-top: 4rem;
+}
+.kemitraanDetail{
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 2.5rem;
+}
+.kemitraan-img{
+    max-height: 400px;
+}
+.kemitraanDetail__left{
+    display: flex;
+    justify-content: center;
+}
+.kemitraanDetail__right h1{
+    font-size: 4rem;
+    font-weight: 600;
+    padding-bottom: 2.5rem;
+   
+}
+.leftName__info,.leftLoc__info{
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+    font-size: 1.5rem;
+    padding-bottom: .5rem;
+    font-weight: 500;
+}
+.leftDetail__info{
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+}
+.kemitraanDetail__button{
+    padding: .8rem 1.5rem;
+    background-color: var(--hijau-muda);
+    color: white;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    border: none;
+    cursor: pointer;
+    transition: background .3s;
+}
+.kemitraanDetail__button:hover{
     background-color: var(--hijau-tua);
 }
