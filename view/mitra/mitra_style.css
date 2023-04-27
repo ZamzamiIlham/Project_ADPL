@@ -102,6 +102,18 @@
 .flex{
     display: flex;
 }
+.back__tombol{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: var(--hijau-tua);
+}
+.back__tombol i{
+    font-size: 1.5rem;
+}
 
 /*=================== HEADER ========================== */
 .header{
@@ -386,3 +398,41 @@
 .kemitraanDetail__button:hover{
     background-color: var(--hijau-tua);
 }
+/*================= FORM KEMITRAAN ==================*/
+.formKemitraan{
+    padding-top: 4rem;
+}
+.formKemitraangrid{
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5rem;
+}
+.formleft div p,.formCenter div p,.formRight div p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--hijau-tua);
+}
+.formleft div input, .formCenter div input,.formRight div input{
+    padding: .5rem 2rem;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    border: solid 1px var(--hijau-muda);
+}
+.buttonForm{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formMitra{
+    padding: .5rem 1.5rem;
+    background-color: var(--hijau-muda);
+    font-size: 1.5rem;
+    font-weight: 500;
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+
